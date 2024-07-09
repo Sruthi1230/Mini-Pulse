@@ -51,7 +51,7 @@ public interface MiniPulseDB {
                                 ResultSet rs=st.executeQuery();
                                 if(rs.next())
                                     {
-                                        return rs.getString("poll id");
+                                        return rs.getString("poll_id");
                                     }
                             } catch (SQLException e)
                                 {
